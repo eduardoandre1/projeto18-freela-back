@@ -1,6 +1,6 @@
 import cors from 'cors'
 import express, { json } from 'express'
-import router from './routes/router.js'
+import router from './routes/route.js'
 const app = express()
 
 app.use(cors())
